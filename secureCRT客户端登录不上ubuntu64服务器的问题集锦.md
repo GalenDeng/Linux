@@ -1,6 +1,6 @@
 ## secureCRT客户端登录不上ubuntu64服务器的问题集锦 (2017.10.14)
 
-*注Ubuntu缺省安装了openssh-client，但没有安装openssh-server*
+*注: Ubuntu缺省安装了openssh-client，但没有安装openssh-server*
 
 
 1. `问题：The remote system refused the connection.`
