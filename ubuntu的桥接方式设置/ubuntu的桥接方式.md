@@ -1,4 +1,4 @@
-## ubuntu的桥接方式 (2017.12.06)
+## ubuntu的桥接方式设置 (2017.12.06)
 1. [设置链接](http://www.cnblogs.com/gylei/archive/2011/12/10/2283484.html)
 2. `具体方式`
 ## 1)
