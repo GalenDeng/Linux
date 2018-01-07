@@ -10,3 +10,6 @@
 c_src := $(shell ls *.c)
 结果为 1.c 2.c
 ```
+```
+INCLUDEDIR 	:= $(shell pwd)/include
+```
