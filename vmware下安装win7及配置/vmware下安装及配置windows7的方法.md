@@ -1,4 +1,4 @@
-## vmware下安装windows7的方法 (2018.07.16)
+## vmware下安装及配置windows7的方法 (2018.07.17)
 1. `安装需要的软件包`
 * [ghost win7 64位的系统镜像文件](http://win7.ppsrc.cn/index.html?para=2)
 * VMware
