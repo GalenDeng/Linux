@@ -17,3 +17,29 @@
 * 在vmware安装的win7下设置局域网代理上网(IE上网)
 * 此时即可上网
 * [上网设置参考](https://jingyan.baidu.com/article/48b37f8d68b4ef1a646488f1.html)
+
+5. `安装software的时候出现缺失 mfc100u.dll / mscvr100.dll的解决方式`
+* [参考文档](https://jingyan.baidu.com/article/f79b7cb3412c549144023e15.html)
+```
+* 网上下载相应版本的 X86 / X64 版本的  mfc100u.dll / mscvr100.dll
+* cmd
+* regsvr32 mfc100u.dll / regsvr32 mscvr100.dll
+* restart windows
+```
+
+6. `应用程序无法正常启动0xc000007b`
+1) 导致此情况的原因
+```
+1、电脑没有安装DirectX9或者DirectX 9.0 组件损坏；
+2、电脑没有安装Microsoft Visual C++；
+3、电脑上没有安装.net。
+```
+2) 解决方法
+```
+使用DirectX修复工具(百度下载),修复完成之后，重启一般可以解决这个问题
+```
+* [DirectX](http://www.xitongzhijia.net/soft/24834.html)
+
+* [Win7专业版SP1 64位可以激活的密钥](https://wenda.so.com/q/1456159576726349?src=150)
+
+* [BarTender](http://xiazai.bartender.cc/trail/Bartender_Trial_x64.exe )
