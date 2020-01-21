@@ -1,0 +1,16 @@
+#!/bin/sh
+test -z $1 && echo "you must input the filename that you want to repair!" && exit 0
+
+shell_path=$(cd `dirname $0`;pwd)
+change_auto_path="${shell_path}/$1"
+script_text="${shell_path}/script.sed"
+echo "${change_auto_path}"
+#read -p "please to input the name that you want to use!"  name
+for filename in `ls ${change_auto_path}`
+do
+	echo ${filename}
+	newfilename=`echo ${filename} | sed -f  ${script_text}`
+	mv "${change_auto_path}"${filename}  "${change_auto_path}"${newfilename}
+done
+exit 0
+

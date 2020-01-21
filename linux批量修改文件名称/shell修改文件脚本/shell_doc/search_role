@@ -1,0 +1,2 @@
+-name "水果-*" \
+-o -name "*hello*"

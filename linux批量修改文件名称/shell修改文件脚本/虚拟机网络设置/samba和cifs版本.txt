@@ -1,0 +1,6 @@
+[galen@localhost samba]$ rpm -qa samba
+samba-4.7.1-6.el7.x86_64
+
+
+[galen@localhost samba]$ rpm -qa cifs-utils
+cifs-utils-6.2-10.el7.x86_64
