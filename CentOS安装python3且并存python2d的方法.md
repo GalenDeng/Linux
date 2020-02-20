@@ -29,5 +29,15 @@
 ```
 *  sudo ln -s /usr/local/python3/bin/pip3 /usr/bin/pip // 软链接 pip3 到 /usr/bin/pip
 *  sudo pip install --upgrade pip
-*  suod pip install Django==3.0.3
+*  sudo pip install Django==3.0.3
+*  pip show django  // 查看django的版本和安装路径
+
+普通用户状态下安装的django，django没有加入到系统全局path里,所以不能直接用
+* 添加bin程序到系统环境变量里面
+    sudo vim /etc/profile
+    // add的path 必须是bin目录下
+    export PATH=$PATH:/usr/local/python3/lib/python3.8/site-packages/django/bin // 所有用户可用
+    // source /etc/profile  即时生效
 ```
+
+* [关于环境变量PATH的添加和查看](https://www.cnblogs.com/cucuad/p/10114606.html)
