@@ -1,0 +1,11 @@
+# 添加用户到sudoers文件，使其变为 sudoer 用户 （2020.02.19）
+
+* 1. su - root ；   // 使用 root 账号登录
+* 2. vim /etc/sudoers
+* 3. /root   查找
+* 4. yyp 复制并在其下一行粘贴，然后把粘贴那段的root 用户改为你想具有sudoer属性的用户
+```
+root    ALL=(ALL)       ALL
+galen   ALL=(ALL)       ALL
+```
+* 5. :wq!  保存 
