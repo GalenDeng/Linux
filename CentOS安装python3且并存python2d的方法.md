@@ -42,3 +42,6 @@
 ```
 
 * [关于环境变量PATH的添加和查看](https://www.cnblogs.com/cucuad/p/10114606.html)
+
+2. `django.core.exceptions.ImproperlyConfigured: SQLite 3.8.3 or later is required (found 3.7.17).`
+* [sqlite版本太低解决方法](https://blog.csdn.net/weixin_43336281/article/details/100055435)
