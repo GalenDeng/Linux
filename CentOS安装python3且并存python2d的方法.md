@@ -36,7 +36,8 @@
 * 添加bin程序到系统环境变量里面
     sudo vim /etc/profile
     // add的path 必须是bin目录下
-    export PATH=$PATH:/usr/local/python3/lib/python3.8/site-packages/django/bin // 所有用户可用
+    export export PATH=$PATH:/usr/local/python3/bin
+    // 所有用户可用
     // source /etc/profile  即时生效
 ```
 
